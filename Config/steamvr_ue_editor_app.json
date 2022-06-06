@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.arch1510_vrtemplate-18319896.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "D:/ARCH 1510 ARVR/ARCH1510_VRTemplate/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "ARCH1510_VRTemplate-18319896 [UE Editor]"
+				}
+			}
+		}
+	]
+}
