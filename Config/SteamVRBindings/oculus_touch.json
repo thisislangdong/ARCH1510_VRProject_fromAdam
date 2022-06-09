@@ -63,6 +63,28 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/NextBookmark"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/PreviousBookmark"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
@@ -127,17 +149,6 @@
 							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
 						}
 					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/a",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/MovementAxisRight_Y axis"
-						}
-					}
 				}
 			],
 			"poses": [
@@ -173,5 +184,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "ARCH1510_VRTemplate-18319896"
 }
